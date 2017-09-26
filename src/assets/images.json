@@ -1,0 +1,11 @@
+{
+    "imgs": [
+        { "url":"../assets/img/1.jpg", "category":"other"},
+        { "url":"../assets/img/2.jpg", "category":"car"},
+        { "url":"../assets/img/3.jpg", "category":"cola"},
+        { "url":"../assets/img/4.jpg", "category":"other"},
+        { "url":"../assets/img/5.jpg", "category":"car"},
+        { "url":"../assets/img/6.jpg", "category":"other"},
+        { "url":"../assets/img/7.jpg", "category":"other"}
+    ]
+}

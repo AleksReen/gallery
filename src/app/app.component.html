@@ -1,0 +1,35 @@
+<div class='container-fluid'>
+    <div class='row'>
+        <div class="col-md-12 header">
+                <H1>
+                        Photos Gallary
+                 </H1>
+        </div>
+    </div>
+    
+</div>
+
+<div class='container-fluid'>
+        <div class='row'>
+            <div class="col-md-12 bt">
+                <input #all type="button" class="btn btn-lg btn-warning" (click)="filter(all.value)" value="All">
+                <input #car type="button" class="btn btn-lg btn-warning" (click)="filter(car.value)" value="Car">
+                <input #cola type="button" class="btn btn-lg btn-warning" (click)="filter(cola.value)" value="Cola">
+                <input #other type="button" class="btn btn-lg btn-warning" (click)="filter(other.value)" value="Other">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class='container-fluid'>
+            <div class='row'>
+                <div class= "flex">
+                        <div class="image_conteiner" *ngFor="let item of images | filter:filt">
+                                <img [src]="item.url">
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
